@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #dbb5ff;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#api-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 2em;  
+}
+
+.centered {
+    max-width: 60%;
+    border: 3px solid black; 
+    justify-content: center;
+}
+
+.each-api {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    margin: 0.5em;
+    padding: 0.75em;
+    border: 2px solid black;
+    text-align: center;
+    background-color: pink;
+}
+
+
+.headers > h1 {
+    text-transform: uppercase;
+    text-decoration: dotted;
+}
+
+.api-name {
+    font-weight: bold;
+}
